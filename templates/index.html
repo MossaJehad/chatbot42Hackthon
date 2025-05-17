@@ -1,15 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<title>Chatbot</title>
+	</head>
 	<body>
-		<h1>
-			Hi, Welcome {{ author }}
-		</h1>
-		{% if man%}
-		{% endif %}
+		<h1 class="text-3xl font-bold underline text-clifford">Ask the Bot</h1>
+		<input id="userInput" placeholder="Type your question..." />
+		<button onclick="askBot()">ASK</button>
+		<div id="response" class="hidden">
+			<div role="status" class="space-y-2.5 animate-pulse max-w-lg">
+			<div class="flex items-center w-full">
+				<div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+			</div>
+			<div class="flex items-center w-full max-w-[480px]">
+				<div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
+						<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
+			</div>
+			<div class="flex items-center w-full max-w-[400px]">
+				<div class="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+			</div>
+			<div class="flex items-center w-full max-w-[480px]">
+				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
+						<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
+			</div>
+			<div class="flex items-center w-full max-w-[440px]">
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
+				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
+			</div>
+			<div class="flex items-center w-full max-w-[360px]">
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
+				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
+			</div>
+			<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+		<p id="res"></p>
+		<script>
+			var btn = document.getElementById('userInput');
+			btn.addEventListerner('keydown', function (e) {
+				if(e.keyCode==13) {
+					askBot();
+				}
+			});
+			async function	askBot()
+			{
+				document.getElementById('res').innerText == "";
+				const prompt = document.getElementById('userInput').value;
+				console.log(prompt);
+				if(prompt != "")
+					document.getElementById('response').classList.remove("hidden");
+				else
+					document.getElementById('response').classList.add("hidden");
+				const response = await fetch('/ask', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ prompt })
+				});
+				const data = await response.json();
+				document.getElementById('response').classList.add("hidden");
+				document.getElementById('res').innerText = data.generated_text || data.error;
+			}
+		</script>
 	</body>
 </html>
