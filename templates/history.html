@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chat History</title>
+</head>
+<body>
+  <h1>Chat History</h1>
+  <form method="POST" action="/clear-history" onsubmit="return confirm('Are you sure you want to delete the history?');">
+    <button type="submit">clear-history</button>
+  </form>
+  <ul>
+    {% for chat in history %}
+      <li><strong>Q:</strong> {{ chat.question }}<br><strong>A:</strong> {{ chat.answer }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/">Back to the chatbot</a>
+</body>
+</html>
+
+
+
+
+
