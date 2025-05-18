@@ -1,0 +1,293 @@
+Q: What is 42 Amman?
+A: 42 Amman is a free, teacher-less, project-based computer programming school in Amman, Jordan. It's part of the École 42 global network and is open to everyone aged 18+, regardless of background or education. <|END|>
+
+Q: When was 42 Amman launched?
+A: 42 Amman was launched in 2023 as part of the École 42 global network. <|END|>
+
+Q: Is 42 Amman really free?
+A: Yes, 42 Amman is completely tuition-free. It's a non-profit initiative by the Crown Prince Foundation, supported by CHAMS Association, French Embassy in Jordan, ZINC, CAVT, and the Ministry of Planning and International Cooperation. <|END|>
+
+Q: How does learning work at 42 Amman?
+A: 42 Amman uses a peer-to-peer, project-based, gamified learning approach. There are no teachers, classes, or lectures. Students learn by doing projects, collaborating with peers, and solving problems. They gain XP by completing projects, which unlocks new projects in a branching tree system. <|END|>
+
+Q: Are there teachers at 42 Amman?
+A: No, 42 Amman has no teachers, classes, or lectures. Learning is based on a peer-to-peer, project-based methodology where students teach each other and learn by doing. <|END|>
+
+Q: What's the curriculum at 42 Amman?
+A: The curriculum at 42 Amman consists of: 1) Core Curriculum (8–18 months, max 2 years) covering Unix, C, Algorithms, Networking, System Admin, Graphics, and OOP. 2) First Internship (4–6 months). 3) Specialization Phase (up to 3 years) covering Advanced Algorithms & AI, Game Dev, Web/Mobile, Cybersecurity, Advanced Unix & Networking, and SEA:ME. 4) Optional Second Internship (4–6 months). <|END|>
+
+Q: What programming languages do you learn at 42?
+A: At 42 Amman, students start with C programming in the core curriculum. Later, they learn various languages depending on their specialization path, including C++, Python, JavaScript, and more. The focus is on mastering programming concepts rather than specific languages. <|END|>
+
+Q: How do I apply to 42 Amman?
+A: To apply to 42 Amman: 1) Register online and create a profile. 2) Take the Logic Test (about 2 hours online) to assess cognitive skills. 3) Attend an Intro Meeting (online or in-person) to learn more about 42 Amman. 4) Complete the Piscine (1-month immersive bootcamp) to test fit and readiness. 5) If you pass the Piscine, you can start the core program. <|END|>
+
+Q: What is the Piscine?
+A: The Piscine is a 1-month immersive bootcamp that serves as the final selection process for 42 Amman. It's an intensive coding experience designed to test your fit and readiness for the program. During the Piscine, candidates work on programming challenges for 12+ hours daily, including weekends, to see if they're suited for 42's learning model. <|END|>
+
+Q: What are the career opportunities after 42 Amman?
+A: 42 Amman has strong ties with local and international industry partners. The specialization phase prepares students to enter the job market as senior-level software engineers. However, students are not required to work with partner companies and can pursue their own career paths. <|END|>
+
+Q: Is 42 Amman internationally recognized?
+A: Yes, 42 Amman is part of École 42, which was founded in 2013 in Paris. The network includes more than 54 campuses in 31 countries, with 44,000+ graduates. Students receive internationally recognized diplomas, including the French diploma. <|END|>
+
+Q: What is programming?
+A: Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and implementation of algorithms. <|END|>
+
+Q: What is C programming?
+A: C is a general-purpose programming language created in the 1970s. It's very powerful and widely used for system programming, embedded systems, and applications. C is known for its efficiency, control, and direct manipulation of hardware. It's the primary language taught in the core curriculum at 42 Amman. <|END|>
+
+Q: What is École 42?
+A: École 42 is a global network of tuition-free, teacher-less coding schools that emphasize peer learning, creativity, and autonomy. It was launched in 2013 in Paris by Xavier Niel and has expanded to over 50 campuses worldwide. <|END|>
+
+Q: Where is 42 Amman located?
+A: 42 Amman is located in the King Hussein Business Park in Amman, Jordan, a hub for innovation and technology startups. <|END|>
+
+Q: Who can join 42 Amman?
+A: Anyone aged 18 or older can apply to 42 Amman. There are no prerequisites in terms of academic degrees or prior coding experience. <|END|>
+
+Q: Is prior coding knowledge required for 42 Amman?
+A: No, prior coding experience is not required. The program is designed for beginners as well as those with experience. The Piscine is designed to evaluate readiness and potential. <|END|>
+
+Q: How long is the full program at 42 Amman?
+A: The full program can take up to 5 years: around 1.5 years for the core curriculum and internship, up to 3 years for the specialization phase, with optional second internships. <|END|>
+
+Q: What does the name "Piscine" mean?
+A: “Piscine” is French for “swimming pool.” It reflects the idea that students are "thrown in the deep end" to see if they can swim — meaning adapt, learn, and thrive in a challenging environment. <|END|>
+
+Q: What is Jordan known for?
+A: Jordan is known for its rich history, ancient ruins like Petra and Jerash, the Dead Sea, and its stable, welcoming environment in the Middle East. It’s a hub for tourism, education, and innovation. <|END|>
+
+Q: What is Amman like?
+A: Amman is the capital and largest city of Jordan. It’s a modern, vibrant city with ancient roots, offering a mix of technology, culture, cuisine, and education. It is also considered one of the safest cities in the region. <|END|>
+
+Q: Why was 42 Amman established in Jordan?
+A: 42 Amman was launched to nurture digital talent in Jordan, empower youth with tech skills, and boost the local and regional economy through innovation and software development. <|END|>
+
+Q: Does 42 Amman provide job placement?
+A: While job placement is not guaranteed, 42 Amman has strong industry ties and offers connections to tech companies, career events, and internships that help students launch their careers. <|END|>
+
+Q: Is the 42 curriculum the same everywhere?
+A: Yes, the core philosophy and curriculum are standardized across all 42 campuses. However, specialization opportunities and local partnerships may vary by campus. <|END|>
+
+Q: Is there housing for 42 Amman students?
+A: 42 Amman does not currently provide student housing, but students are encouraged to find accommodation nearby in Amman, which has a range of affordable options. <|END|>
+
+Q: What are the core values of 42?
+A: The core values of 42 include peer learning, autonomy, collaboration, creativity, resilience, and lifelong learning. Students are expected to take charge of their own education and help others. <|END|>
+
+Q: How is progress measured at 42 Amman?
+A: Progress is measured through XP (experience points), which students earn by completing projects. Higher XP unlocks new, more complex projects in a gamified progression system. <|END|>
+
+Q: What is the Crown Prince Foundation?
+A: The Crown Prince Foundation is a Jordanian organization dedicated to empowering youth, promoting innovation, and enhancing education through strategic initiatives like 42 Amman. <|END|>
+
+Q: What are the stages of the 42 Amman program?
+A: The program includes four main stages: 1) Core Curriculum (8–18 months), 2) First Internship (4–6 months), 3) Specialization Phase (up to 3 years), and 4) Optional Second Internship (4–6 months). <|END|>
+
+Q: What is peer-to-peer learning?
+A: Peer-to-peer learning is an educational method where students learn from each other instead of from teachers. At 42 Amman, students review each other's code, collaborate on projects, and grow through feedback and teamwork. <|END|>
+
+Q: What does gamified learning mean?
+A: Gamified learning uses game design elements like points, levels, and challenges to make learning more engaging. At 42 Amman, students earn XP and unlock new projects as they progress. <|END|>
+
+Q: What are XP points?
+A: XP (experience points) are earned by completing projects. Gaining XP helps students level up and unlock more complex tasks in the curriculum. It’s a core part of the gamified structure at 42 Amman. <|END|>
+
+Q: Can I work while attending 42 Amman?
+A: Yes, but it can be challenging. The Piscine and core curriculum are very time-intensive. Many students choose to focus full-time, especially during the initial phases. <|END|>
+
+Q: Does 42 Amman offer online learning?
+A: No, the learning at 42 Amman happens fully on campus. Collaboration, peer review, and the immersive environment are essential parts of the experience. <|END|>
+
+Q: What are specialization paths at 42 Amman?
+A: Students can specialize in areas like Artificial Intelligence, Cybersecurity, Game Development, Web/Mobile Development, and Advanced Networking. <|END|>
+
+Q: How is 42 different from university?
+A: 42 has no classes, no teachers, no grades, and no tuition. Students learn by doing real projects, collaborating with peers, and progressing at their own pace. <|END|>
+
+Q: Is 42 Amman open to non-Jordanians?
+A: Yes, international students can apply as long as they meet the age requirement and can attend the Piscine and program in person. <|END|>
+
+Q: What is the impact of 42 globally?
+A: With over 50 campuses in more than 30 countries, École 42 has trained tens of thousands of developers, many of whom work in top tech companies or launch their own startups. <|END|>
+
+Q: What is ZINC Jordan?
+A: ZINC is the Zain Innovation Campus, a hub that supports startups, tech education, and entrepreneurship in Jordan. It's one of the strategic partners supporting 42 Amman. <|END|>
+
+Q: What is CHAMS Association?
+A: CHAMS is a French-Jordanian non-profit organization focused on empowering youth through education and innovation. It plays a key role in launching and supporting 42 Amman. <|END|>
+
+Q: What is the SEA:ME track in 42?
+A: SEA:ME (Software Engineering & Architecture: Master Expertise) is a high-level track for advanced students interested in deep software engineering concepts and architecture design. <|END|>
+
+Q: Can I get a diploma from 42 Amman?
+A: Yes, students who complete the full curriculum receive an internationally recognized diploma, including the French RNCP Level 6 diploma. <|END|>
+
+Q: Is 42 Amman accredited?
+A: While not a traditional university, 42 is internationally recognized and its diploma is officially registered with the French government. <|END|>
+
+Q: What are some companies that hire 42 graduates?
+A: Graduates from 42 have been hired by companies like Google, Microsoft, Amazon, Ubisoft, IBM, and many startups and tech firms worldwide. <|END|>
+
+Q: What kind of students thrive at 42 Amman?
+A: Self-motivated, curious, and collaborative learners who enjoy solving problems and working on real projects tend to succeed at 42. <|END|>
+
+Q: What is the King Hussein Business Park?
+A: It’s a major tech and business hub in Amman, Jordan, hosting startups, corporate offices, and innovation centers — including 42 Amman. <|END|>
+
+Q: What does Jordan’s tech scene look like?
+A: Jordan’s tech industry is growing rapidly with strong government support, a young population, and vibrant startup culture, especially in Amman. <|END|>
+
+Q: Does 42 Amman offer financial support?
+A: While tuition is free, students are responsible for personal expenses. Some may find support through scholarships, internships, or grants. <|END|>
+
+Q: Can women join 42 Amman?
+A: Absolutely. 42 Amman is open to everyone aged 18 and up, regardless of gender. The campus actively encourages diversity and inclusion. <|END|>
+
+Q: How many students does 42 Amman accept?
+A: The number varies per Piscine cycle, but selection is competitive. Only those who complete the Piscine and demonstrate strong motivation and teamwork are accepted. <|END|>
+
+Q: What’s the success rate of the Piscine?
+A: Around 10% to 15% of Piscine participants are accepted into the core program, depending on the pool and space availability. <|END|>
+
+Q: What’s the language of instruction at 42 Amman?
+A: The main language is English. All projects, communication, and documentation are in English to ensure international relevance. <|END|>
+
+Q: How competitive is 42 Amman?
+A: Admission is merit-based, not competitive in the traditional sense. If you show motivation, logic, and commitment during the Piscine, you can earn your place. <|END|>
+
+Q: What is the age requirement for 42 Amman?
+A: You must be at least 18 years old to join 42 Amman. There’s no upper age limit, and no diploma or prior experience is required. <|END|>
+
+Q: Do I need a high school or university degree to join 42 Amman?
+A: No. 42 Amman does not require any formal educational background. Your selection depends on your performance in the online tests and the Piscine. <|END|>
+
+Q: What is the logic test in the 42 Amman application?
+A: The logic test is a two-hour online cognitive test that evaluates your problem-solving and pattern recognition skills. It’s the first step in the application process. <|END|>
+
+Q: What are the opening hours of 42 Amman?
+A: The campus is open 24/7. Students can study at any time, encouraging self-discipline and flexibility in learning. <|END|>
+
+Q: Where is 42 Amman located?
+A: 42 Amman is located in the King Hussein Business Park, one of Jordan’s premier technology and innovation hubs in the capital city. <|END|>
+
+Q: What are Jordan's official languages?
+A: The official language of Jordan is Arabic. However, English is widely spoken, especially in education, business, and technology sectors. <|END|>
+
+Q: How safe is Jordan for international students?
+A: Jordan is considered one of the safest countries in the region. It has a stable political climate and a strong focus on hospitality and tourism. <|END|>
+
+Q: What is the cost of living in Amman for students?
+A: On average, student living expenses in Amman range from 250 to 500 JOD per month, depending on housing, food, and transportation. <|END|>
+
+Q: What is Amman known for?
+A: Amman is known for its mix of ancient history and modern development. It’s the cultural, political, and economic center of Jordan. <|END|>
+
+Q: How many students attend 42 campuses globally?
+A: Over 18,000 students are actively enrolled across more than 50 École 42 campuses worldwide. <|END|>
+
+Q: Can I transfer from another 42 campus to 42 Amman?
+A: Yes, the 42 network supports student mobility. Once you're in the core or specialization phase, you can transfer between campuses if space is available. <|END|>
+
+Q: Does 42 Amman have student housing?
+A: No, 42 Amman does not provide on-campus housing. Students are responsible for finding their own accommodation in Amman. <|END|>
+
+Q: What kind of projects will I do at 42 Amman?
+A: Projects include topics like shell scripting, data structures, memory management, web development, cyber security, and collaborative software architecture. <|END|>
+
+Q: How are projects evaluated at 42 Amman?
+A: Projects are evaluated through peer review. Students present and test each other’s work based on detailed evaluation guidelines. <|END|>
+
+Q: Is there a graduation ceremony at 42 Amman?
+A: While 42 doesn’t follow traditional graduation timelines, some campuses hold recognition events for students who complete the program. <|END|>
+
+Q: Does 42 Amman have mentors or advisors?
+A: There are no formal teachers, but staff and peers support your progress. Students mentor each other as they advance in the curriculum. <|END|>
+
+Q: What happens if I fail a project at 42 Amman?
+A: Failing a project is part of the learning process. You can try again after reviewing feedback and improving your code or approach. <|END|>
+
+Q: Are there events or hackathons at 42 Amman?
+A: Yes, 42 Amman frequently hosts tech events, hackathons, coding nights, and collaboration days with partners in the Jordanian tech ecosystem. <|END|>
+
+Q: What is the 42 network's educational philosophy?
+A: 42 believes in self-learning, autonomy, collaboration, and mastery through failure. It removes traditional hierarchies and empowers students to lead their learning journey. <|END|>
+
+Q: Can I start my own company after graduating from 42 Amman?
+A: Absolutely. Many 42 graduates become entrepreneurs. The skills, mindset, and experience you gain can be applied to startups and tech ventures. <|END|>
+
+Q: What makes the Piscine so intense?
+A: The Piscine simulates the full learning experience in 4 weeks. You'll code for 12+ hours daily, often collaborating and reviewing under pressure, testing your determination and fit. <|END|>
+
+Q: Can I retake the Piscine if I don’t pass?
+A: Typically, you can apply for a future Piscine cycle, though spaces are limited and preference may be given to new applicants. <|END|>
+
+Q: Is 42 Amman part of the Jordanian higher education system?
+A: No, it operates independently. However, it’s recognized through international and government partnerships and aligned with global tech standards. <|END|>
+
+Q: Does 42 Amman teach soft skills?
+A: Yes, soft skills like communication, teamwork, conflict resolution, and time management are integrated into the peer-based learning environment. <|END|>
+
+Q: Are there women in tech initiatives at 42 Amman?
+A: Yes, 42 Amman actively supports gender inclusion and often collaborates with local NGOs and tech groups to empower women in coding. <|END|>
+
+Q: What makes 42 Amman different from other coding schools?
+A: 42 Amman stands out by having no teachers, no lectures, and no tuition. Students learn through a gamified, peer-driven model focused on projects, collaboration, and real-world problem-solving. <|END|>
+
+Q: Do I need a laptop to study at 42 Amman?
+A: No, 42 Amman provides all the necessary equipment, including fully equipped workstations for every student on campus. <|END|>
+
+Q: What if I have no programming experience?
+A: That’s completely fine. 42 Amman is designed for beginners and advanced learners alike. The only requirement is logical thinking, motivation, and resilience. <|END|>
+
+Q: Does 42 Amman offer online learning?
+A: No, 42 Amman is an in-person program. The peer-to-peer model relies heavily on collaboration within the campus environment. <|END|>
+
+Q: Can international students apply to 42 Amman?
+A: Yes, 42 Amman welcomes international applicants. However, applicants are responsible for their own travel, visa, and living arrangements. <|END|>
+
+Q: How long is the entire program at 42 Amman?
+A: The full program can take up to 5 years: around 2 years for the core and first internship, and up to 3 years for specialization and an optional second internship. <|END|>
+
+Q: What is peer correction at 42 Amman?
+A: Peer correction is a system where students evaluate and give feedback on each other’s projects using structured checklists and peer review tools. <|END|>
+
+Q: Is there a dress code at 42 Amman?
+A: No, there is no dress code. Students are encouraged to wear whatever makes them comfortable and productive. <|END|>
+
+Q: Can I work part-time while studying at 42 Amman?
+A: It’s possible, but not recommended. The workload is intense, and success in the program requires full-time commitment. <|END|>
+
+Q: What is the SEA:ME project in 42's curriculum?
+A: SEA:ME (Software Engineering & Applied Mathematics Education) is a high-level specialization cluster focusing on mathematics, algorithms, and software architecture. <|END|>
+
+Q: What companies hire 42 graduates?
+A: 42 graduates have been hired by global tech companies like Google, Microsoft, IBM, and Ubisoft, as well as local startups and enterprise firms. <|END|>
+
+Q: What is the Crown Prince Foundation?
+A: The Crown Prince Foundation is a Jordanian non-profit organization that supports youth empowerment, education, innovation, and leadership development across Jordan. <|END|>
+
+Q: What does CHAMS Association do?
+A: CHAMS is a non-profit association that promotes digital education and has helped launch 42 campuses in the MENA region, including 42 Amman. <|END|>
+
+Q: What is ZINC in Jordan?
+A: ZINC (Zain Innovation Campus) is an entrepreneurship hub launched by Zain Jordan to support tech innovation, startups, and digital transformation in the country. <|END|>
+
+Q: What kind of student thrives at 42 Amman?
+A: Self-motivated, curious, and persistent individuals who enjoy problem-solving and collaborating tend to thrive in the 42 learning environment. <|END|>
+
+Q: How does 42 Amman support career development?
+A: Through partnerships, internships, industry events, mentorship opportunities, and a specialization phase designed to align with market needs. <|END|>
+
+Q: Can I choose multiple specialization tracks at 42 Amman?
+A: Students typically choose one specialization path, but they can explore additional topics depending on time, interest, and availability of projects. <|END|>
+
+Q: What is the tech ecosystem like in Jordan?
+A: Jordan has a growing tech ecosystem with startups, incubators, accelerators, and innovation hubs supported by both public and private sectors. <|END|>
+
+Q: What is the language of instruction at 42 Amman?
+A: While Jordan is an Arabic-speaking country, the curriculum and platform at 42 Amman are entirely in English to maintain international standards. <|END|>
+
+Q: What is the culture like at 42 Amman?
+A: The culture is open, diverse, collaborative, and fast-paced. Students build friendships, challenge each other, and grow through shared learning. <|END|>
