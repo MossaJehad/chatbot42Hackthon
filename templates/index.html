@@ -1,76 +1,172 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-		<title>Chatbot</title>
-	</head>
-	<body>
-		<h1 class="text-3xl font-bold underline text-clifford">Ask the Bot</h1>
-		<input id="userInput" placeholder="Type your question..." />
-		<button onclick="askBot()">ASK</button>
-		<div id="response" class="hidden">
-			<div role="status" class="space-y-2.5 animate-pulse max-w-lg">
-			<div class="flex items-center w-full">
-				<div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-			</div>
-			<div class="flex items-center w-full max-w-[480px]">
-				<div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-						<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-			</div>
-			<div class="flex items-center w-full max-w-[400px]">
-				<div class="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-			</div>
-			<div class="flex items-center w-full max-w-[480px]">
-				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-						<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-			</div>
-			<div class="flex items-center w-full max-w-[440px]">
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-			</div>
-			<div class="flex items-center w-full max-w-[360px]">
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-				<div class="h-2.5 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-				<div class="h-2.5 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-			</div>
-			<span class="sr-only">Loading...</span>
-			</div>
-		</div>
-		<p id="res"></p>
-		<script>
-			var btn = document.getElementById('userInput');
-			btn.addEventListerner('keydown', function (e) {
-				if(e.keyCode==13) {
-					askBot();
-				}
-			});
-			async function	askBot()
-			{
-				document.getElementById('res').innerText == "";
-				const prompt = document.getElementById('userInput').value;
-				console.log(prompt);
-				if(prompt != "")
-					document.getElementById('response').classList.remove("hidden");
-				else
-					document.getElementById('response').classList.add("hidden");
-				const response = await fetch('/ask', {
-					method: 'POST',
-					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify({ prompt })
-				});
-				const data = await response.json();
-				document.getElementById('response').classList.add("hidden");
-				document.getElementById('res').innerText = data.generated_text || data.error;
-			}
-		</script>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude-like Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      margin-top: 20px;
+      color: #222;
+    }
+    #chatbox {
+      width: 90%;
+      max-width: 600px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 20px 0;
+      overflow-y: auto;
+      flex-grow: 1;
+    }
+    .message {
+      padding: 10px 14px;
+      margin: 10px 0;
+      border-radius: 10px;
+      max-width: 80%;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+    .user {
+      background-color: #dcf8c6;
+      align-self: flex-end;
+      margin-left: auto;
+    }
+    .bot {
+      background-color: #eee;
+      align-self: flex-start;
+      margin-right: auto;
+    }
+    #inputArea {
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+    #userInput {
+      flex-grow: 1;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      padding: 12px;
+      margin-left: 10px;
+      background-color: #222;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #444;
+    }
+    .skeleton {
+      background: linear-gradient(-90deg, #eee 0%, #ddd 50%, #eee 100%);
+      background-size: 200% 100%;
+      animation: shimmer 1.2s infinite;
+      height: 20px;
+      margin: 10px 0;
+      border-radius: 10px;
+      width: 70%;
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ask the Bot</h1>
+  <div id="chatbox"></div>
+  <div id="inputArea">
+    <input id="userInput" placeholder="Type your question..." />
+    <button onclick="askBot()">ASK</button>
+  </div>
+  <script>
+    const chatbox = document.getElementById('chatbox');
+
+    function saveHistory(history) {
+      localStorage.setItem('chatHistory', JSON.stringify(history));
+    }
+
+    function loadHistory() {
+      const history = JSON.parse(localStorage.getItem('chatHistory')) || [];
+      history.forEach(msg => appendMessage(msg.text, msg.sender));
+      return history;
+    }
+
+    function appendMessage(text, sender) {
+      const div = document.createElement('div');
+      div.className = `message ${sender}`;
+      div.textContent = text;
+      chatbox.appendChild(div);
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+
+    function appendSkeleton() {
+      const skeleton = document.createElement('div');
+      skeleton.className = 'skeleton';
+      skeleton.id = 'skeleton-loader';
+      chatbox.appendChild(skeleton);
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+
+    function removeSkeleton() {
+      const skeleton = document.getElementById('skeleton-loader');
+      if (skeleton) skeleton.remove();
+    }
+
+    let chatHistory = loadHistory();
+
+    document.getElementById('userInput').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') askBot();
+    });
+
+    async function askBot() {
+      const input = document.getElementById('userInput');
+      const question = input.value.trim();
+      if (!question) return;
+      appendMessage(question, 'user');
+      chatHistory.push({ text: question, sender: 'user' });
+      input.value = '';
+      appendSkeleton();
+      try {
+        const res = await fetch('/ask', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt: question })
+        });
+        const data = await res.json();
+        removeSkeleton();
+        const answer = data.generated_text || data.answer || data.error || "No response.";
+        appendMessage(answer, 'bot');
+        chatHistory.push({ text: answer, sender: 'bot' });
+        saveHistory(chatHistory);
+      } catch (err) {
+        removeSkeleton();
+        const errorMsg = "Something went wrong.";
+        appendMessage(errorMsg, 'bot');
+        chatHistory.push({ text: errorMsg, sender: 'bot' });
+        saveHistory(chatHistory);
+      }
+    }
+  </script>
+</body>
 </html>
