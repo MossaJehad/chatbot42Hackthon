@@ -19,7 +19,7 @@ The goal of this project is to create an interactive chatbot that can understand
    git clone https://github.com/MossaJehad/chatbot42Hackthon.git
    cd chatbot42Hackthon
 ```
-    Install dependencies:
+Install dependencies:
 ```bash
   pip install -r requirements.txt
 ```
